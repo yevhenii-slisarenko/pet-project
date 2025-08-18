@@ -1,4 +1,4 @@
-const DATABASE_ROOT_DOMAIN = "http://localhost:8189";
+const DATABASE_ROOT_DOMAIN = "https://spring-boot-production-d8cd.up.railway.app";
 
 export async function getPosts() {
     const response = await fetch(`${DATABASE_ROOT_DOMAIN}/posts/all`);
