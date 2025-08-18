@@ -1,0 +1,85 @@
+.navbar {
+    position: relative;
+    height: 56px;
+    background-color: #f0f8ff;
+    display: flex;
+    /* justify-content: center; 
+    /* align-items: center; */
+    border-bottom: 1px solid #ccc;
+}
+/* .createPostButton {
+    font-size: 16px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 25px;
+    border: 1px solid #ddd;
+    border-radius: 35px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+} */
+
+.createPostButton {
+    /* position: absolute; */
+    left: 20px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 25px;
+    border: 1px solid #ddd;
+    margin-left: 50px;
+    border-radius: 35px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.createPostButton:hover,
+.createPostButton:focus-within {
+    background-color: #d3d3d3;
+}
+.navbarNav {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0;
+    margin-left: auto;
+}
+
+.navLink {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    border-radius: 15px;
+    /* border-color: #1e14ac; */
+    transition: background-color 0.3s;
+}
+
+.navLink:hover {
+    background-color: #1e14ac;
+    color: rgb(255, 255, 255);
+    border-color: #ce114a;
+}
+
+.logoutButton {
+    background-color: #cb8188;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.logoutButton:hover {
+    background-color: #b13340;
+}
+
+.logoutButtonContainer {
+    margin-left: 1rem;
+}

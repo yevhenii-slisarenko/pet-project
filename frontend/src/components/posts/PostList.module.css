@@ -1,0 +1,42 @@
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sort {
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #f6d0a4;
+    margin-bottom: 2rem;
+}
+
+.sort button {
+    font: inherit;
+    color: #f48405;
+    border: 1px solid #f48405;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+}
+
+.sort button:hover {
+    background-color: #f6d0a4;
+}
+
+/*  */
+.grid {
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+    /* grid-gap: 1rem; */
+    padding: 1rem;
+}
+
+.empty {
+    text-align: center;
+    padding: 30px;
+    font-size: 1.1rem;
+    color: #777;
+    /* margin-left: -900px; */
+}
