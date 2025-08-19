@@ -72,7 +72,10 @@ public class SecurityConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
-        config.setAllowedOrigins(List.of("https://my-pet-project-iamservice-forum.netlify.app"));
+        config.setAllowedOrigins(List.of(
+                "https://my-pet-project-iamservice-forum.netlify.app",
+                "https://my-pet-project-iamservice-forum.netlify.app/"
+        ));
         config.setAllowedMethods(List.of("GET","POST","PUT","DELETE","OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
 
