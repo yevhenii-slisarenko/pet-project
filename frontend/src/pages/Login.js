@@ -17,11 +17,12 @@ const Login = () => {
     } = useHttp(login);
 
     useEffect(() => {
-        if (status === "completed") {
+        if (status === "completed" && data) {
             alert(
                 `Confirm your registration by email ${username}, then you can login`
             );
         }
+        else alert(`Wrong password or email exists. Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, and one special character (e.g., !, @, #, $). `)
     }, [status]);
     useEffect(() => {
         if (statusLog === "completed" && dataLog) {
